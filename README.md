@@ -7,10 +7,19 @@ Agent skills I use daily for coding, marketing, and writing. They are small, com
 Install via skills.sh:
 
 ```bash
-npx skills@latest add bernhardzechmann/skills
+npx skills@latest add aizech/bernhard-zechmann-skills
 ```
 
 Then run `/setup-bernhard-zechmann-skills` in your agent to configure the repo.
+
+## Local testing
+
+To use the skills from this checkout without publishing:
+
+```bash
+cd bernhard-zechmann-skills
+npx skills@latest add .
+```
 
 ## Why These Skills Exist
 
