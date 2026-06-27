@@ -1,0 +1,23 @@
+{
+  "name": "bernhard-zechmann-skills",
+  "skills": [
+    "./skills/engineering/setup-bernhard-zechmann-skills",
+    "./skills/engineering/skill-creator",
+    "./skills/engineering/cli-creator",
+    "./skills/engineering/mcp-builder",
+    "./skills/engineering/ai-agent-builder",
+    "./skills/engineering/tdd",
+    "./skills/engineering/browser-automation",
+    "./skills/engineering/playwright",
+    "./skills/productivity/humanizer",
+    "./skills/productivity/geo",
+    "./skills/productivity/web-research",
+    "./skills/productivity/seo-audit",
+    "./skills/productivity/competitor-analysis",
+    "./skills/productivity/technical-blog-writer",
+    "./skills/productivity/find-skills",
+    "./skills/productivity/caveman",
+    "./skills/misc/free-search-aggregator",
+    "./skills/misc/openai-whisper"
+  ]
+}
