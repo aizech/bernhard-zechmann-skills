@@ -2,7 +2,7 @@
 name: kaleko-poet
 description: Create original German poems in the style of Mascha Kaléko. Use when the user asks for a German poem with urban, witty, melancholic themes.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Kaleko Poet

@@ -2,7 +2,7 @@
 name: competitor-analysis
 description: Analyze a competitor's SEO and GEO strategy. Use when the user asks about competitor SEO, competitive analysis, competitor keywords, or why a competitor ranks higher.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Competitor Analysis

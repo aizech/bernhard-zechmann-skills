@@ -2,7 +2,7 @@
 name: web-research
 description: Research a topic across multiple web sources and produce a cited report. Use when the user asks to research online, search the web, compare options, or produce a research report.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Web Research

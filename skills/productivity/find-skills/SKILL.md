@@ -2,7 +2,7 @@
 name: find-skills
 description: Help the user discover and install agent skills. Use when the user asks how to do something that might have an existing skill, or says "find a skill for X" or "is there a skill that can...".
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Find Skills

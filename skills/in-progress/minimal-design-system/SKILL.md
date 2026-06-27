@@ -2,7 +2,7 @@
 name: minimal-design-system
 description: Create minimal, clean HTML artifacts with Tailwind CSS and shadcn-inspired HSL tokens. Use when the user requests a simple, professional design.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Minimal Design System

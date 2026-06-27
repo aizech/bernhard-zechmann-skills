@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Bootstrap repository structure following Matt Pocock's bucket layout.
-- Multi-agent manifests for Claude Code, OpenCode, GitHub Copilot, Devin, and Pi.
+- Multi-agent manifests for Claude Code, OpenCode, GitHub Copilot, Devin, Pi, and Cursor.
 - Core documentation: README.md, CLAUDE.md, CONTEXT.md, and docs/.
 - Engineering, productivity, misc, personal, in-progress, and deprecated skill buckets.
 - Initial skills migrated and tightened:

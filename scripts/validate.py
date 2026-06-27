@@ -35,6 +35,14 @@ def get_readme_skills() -> set[str]:
     return set(pattern.findall(readme))
 
 
+def get_index_skills(index_path: Path) -> set[str]:
+    """Return skill names referenced in an agent index README.md."""
+    text = index_path.read_text(encoding="utf-8")
+    pattern = re.compile(r"- `([a-z0-9-]+)/([a-z0-9-]+)`")
+    matches = pattern.findall(text)
+    return {name for _, name in matches}
+
+
 def check_frontmatter(skill_path: Path) -> list[str]:
     """Return errors for missing required frontmatter."""
     text = skill_path.read_text(encoding="utf-8")
@@ -98,6 +106,22 @@ def main() -> int:
         errors.append(
             f"Public skills missing from README.md: {sorted(missing_from_readme)}"
         )
+
+    for index_name, index_path in (
+        (".opencode/skills/README.md", REPO_ROOT / ".opencode" / "skills" / "README.md"),
+        (".cursor/skills/README.md", REPO_ROOT / ".cursor" / "skills" / "README.md"),
+    ):
+        index_skills = get_index_skills(index_path)
+        missing_from_index = public - index_skills
+        if missing_from_index:
+            errors.append(
+                f"Public skills missing from {index_name}: {sorted(missing_from_index)}"
+            )
+        extra_in_index = index_skills - public
+        if extra_in_index:
+            errors.append(
+                f"{index_name} lists non-public skills: {sorted(extra_in_index)}"
+            )
 
     for skill_path in SKILLS_DIR.rglob("SKILL.md"):
         frontmatter_errors = check_frontmatter(skill_path)

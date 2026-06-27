@@ -2,7 +2,7 @@
 name: scratch-coder
 description: Create Scratch 3.0 projects using Python and ScratchGen. Use when the user wants to generate a .sb3 file with sprites, scripts, and assets.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Scratch Coder

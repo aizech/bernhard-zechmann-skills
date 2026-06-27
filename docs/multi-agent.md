@@ -30,6 +30,11 @@ These skills are written as plain markdown files with frontmatter. They are agen
 - Pi has no dedicated skill format.
 - Plain markdown `SKILL.md` files are readable when Pi can load them.
 
+### Cursor
+
+- Reads `.cursor/skills/<skill-name>/SKILL.md`.
+- The `.cursor/skills/README.md` index lists public skills.
+
 ## Adding a New Agent
 
 1. Add a new agent-specific manifest or instructions file.

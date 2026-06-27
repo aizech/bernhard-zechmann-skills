@@ -3,7 +3,7 @@ name: setup-bernhard-zechmann-skills
 description: Configure the bernhard-zechmann-skills repo for a project. Run once before using the other skills.
 disable-model-invocation: true
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Setup Bernhard Zechmann Skills

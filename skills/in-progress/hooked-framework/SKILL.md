@@ -2,7 +2,7 @@
 name: hooked-framework
 description: Analyze or design products using Nir Eyal's Hook Model: Trigger, Action, Variable Reward, Investment. Use when the user asks about habit-forming design, engagement, retention, or the Hook Model.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Hooked Framework

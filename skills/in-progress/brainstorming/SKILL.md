@@ -3,7 +3,7 @@ name: brainstorming
 description: Explore user intent, requirements, and design before implementation. Use before any creative work or feature build.
 disable-model-invocation: true
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Brainstorming

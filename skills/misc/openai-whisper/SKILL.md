@@ -2,7 +2,7 @@
 name: openai-whisper
 description: Transcribe audio locally with the Whisper CLI. No API key needed.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Whisper CLI

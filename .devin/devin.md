@@ -21,5 +21,5 @@ This repo contains agent skills for coding, marketing, and writing.
 
 - Only use Lucide icons. No emojis or Material icons.
 - Keep skills agent-agnostic.
-- Add public skills to `.claude-plugin/plugin.json` and `README.md`.
+- Add public skills to `.claude-plugin/plugin.json`, `.cursor/skills/README.md`, `.opencode/skills/README.md`, and `README.md`.
 - Update `CHANGELOG.md` when adding or changing skills.

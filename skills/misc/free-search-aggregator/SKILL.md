@@ -2,7 +2,7 @@
 name: free-search-aggregator
 description: Search across multiple web providers with automatic failover. Use when the user needs quota-aware, multi-provider web search.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Free Search Aggregator

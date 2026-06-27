@@ -89,6 +89,15 @@ Drafts not yet ready to ship.
 
 No longer used.
 
+## Agent Support
+
+- **Claude Code:** `.claude-plugin/plugin.json`
+- **OpenCode:** `.opencode/skills/`
+- **GitHub Copilot:** `.github/copilot-instructions.md`
+- **Devin:** `.devin/devin.md`
+- **Pi:** plain markdown `SKILL.md` files
+- **Cursor:** `.cursor/skills/`
+
 ## License
 
 MIT

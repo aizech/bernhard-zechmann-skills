@@ -2,7 +2,7 @@
 name: geo
 description: Optimize a website for AI-powered search engines. Use when the user mentions GEO, AI search, AI SEO, AI visibility, Perplexity, ChatGPT Search, Google AI Overviews, or provides a URL for AI search optimization.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # GEO

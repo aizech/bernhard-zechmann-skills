@@ -2,7 +2,7 @@
 name: playwright
 description: Drive a real browser from the terminal for navigation, form filling, snapshots, screenshots, and UI debugging. Use when the user wants terminal-first browser automation with Playwright.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Playwright CLI

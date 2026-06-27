@@ -2,7 +2,7 @@
 name: cli-creator
 description: Build a composable command-line tool from API docs, OpenAPI specs, SDKs, curl examples, or existing scripts. Use when the user wants a durable CLI that future agents can run from any directory.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # CLI Creator

@@ -2,7 +2,7 @@
 name: skill-creator
 description: Create a new skill or improve an existing one. Use when the user wants to capture a workflow as a reusable skill, edit a skill, or optimize its triggering.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Skill Creator
@@ -29,7 +29,7 @@ Create a folder with the skill name and a `SKILL.md`:
 name: skill-name
 description: When to trigger and what it does. Be specific.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 ```
 

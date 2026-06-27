@@ -24,7 +24,7 @@ Every `SKILL.md` starts with frontmatter:
 name: skill-name
 description: One-line description of when to use this skill.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 ```
 
@@ -57,5 +57,6 @@ disable-model-invocation: true
 - **GitHub Copilot:** `.github/copilot-instructions.md`
 - **Devin:** `.devin/devin.md`
 - **Pi:** plain markdown `SKILL.md` files
+- **Cursor:** `.cursor/skills/`
 
 Keep skills agent-agnostic. Add agent-specific manifests only when the format differs.

@@ -2,7 +2,7 @@
 name: caveman
 description: Ultra-compressed communication mode. Use when the user says "caveman mode", "talk like caveman", "less tokens", or "be brief".
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Caveman

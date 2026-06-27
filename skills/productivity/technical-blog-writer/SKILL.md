@@ -2,7 +2,7 @@
 name: technical-blog-writer
 description: Write technical blog posts about real engineering challenges. Use when the user wants technical content, blog posts, tutorials, or explanations for mixed audiences including non-technical readers.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Technical Blog Writer

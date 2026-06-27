@@ -2,7 +2,7 @@
 name: ai-agent-builder
 description: Build an AI agent with tools, memory, and multi-step reasoning. Use when the user wants a chatbot, reasoning agent, or multi-agent system.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # AI Agent Builder

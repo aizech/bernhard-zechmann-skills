@@ -2,7 +2,7 @@
 name: browser-automation
 description: Automate browser interactions for scraping, testing, and workflows. Use when the user wants to navigate pages, fill forms, extract data, or take screenshots with Puppeteer or Playwright.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Browser Automation

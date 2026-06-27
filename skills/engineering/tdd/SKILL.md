@@ -2,7 +2,7 @@
 name: tdd
 description: Test-driven development with red-green-refactor. Use when the user wants to build features or fix bugs test-first, or mentions unit, integration, or red-green-refactor tests.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Test-Driven Development

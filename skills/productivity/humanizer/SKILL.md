@@ -2,7 +2,7 @@
 name: humanizer
 description: Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Humanizer

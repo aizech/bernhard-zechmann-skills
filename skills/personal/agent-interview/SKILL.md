@@ -2,7 +2,7 @@
 name: agent-interview
 description: Create an audio interview with a selected agent using OpenAI TTS. Generates a single MP3 file with a Q&A podcast session.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # Agent Interview Audio

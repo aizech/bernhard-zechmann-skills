@@ -44,3 +44,4 @@ You are a coding assistant operating with the skill registry in this repo.
 - Use Lucide icons only. No emojis or Material icons.
 - Prefer concise, direct language.
 - Update `CONTEXT.md` when a new shared term emerges.
+- Public skills are also indexed in `.cursor/skills/README.md` and `.opencode/skills/README.md`.

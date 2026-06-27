@@ -2,7 +2,7 @@
 name: mcp-builder
 description: Create an MCP server that exposes external APIs or services as well-designed tools. Use when building a Model Context Protocol server in Python or TypeScript.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # MCP Builder

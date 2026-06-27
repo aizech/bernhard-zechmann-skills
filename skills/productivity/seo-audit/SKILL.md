@@ -2,7 +2,7 @@
 name: seo-audit
 description: Audit a website for technical, on-page, and content SEO issues. Use when the user mentions SEO audit, technical SEO, rankings drop, page speed, Core Web Vitals, crawl errors, or indexing issues.
 license: MIT
-compatibility: claude-code opencode github-copilot devin pi
+compatibility: claude-code opencode github-copilot devin pi cursor
 ---
 
 # SEO Audit
