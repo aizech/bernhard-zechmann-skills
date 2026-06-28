@@ -12,7 +12,28 @@ Create a single MP3 audio file featuring a podcast-style interview with an agent
 ## Requirements
 
 - `OPENAI_API_KEY`
-- `openai` Python package
+- `openai` Python package (`pip install -r requirements.txt`)
+
+## Folder layout
+
+- `agent_interview.py` — main generator script
+- `requirements.txt` — Python dependencies
+- `examples/research-agent.json` — example agent config
+
+## Agent config format
+
+Save the agent as a JSON file:
+
+```json
+{
+  "name": "Research Navigator",
+  "role": "scientific literature assistant",
+  "description": "An agent that searches, summarizes, and explains academic papers.",
+  "skills": ["pubmed search", "paper summarization", "evidence synthesis"],
+  "purpose": "To cut the time between a research question and a useful answer.",
+  "tone": "curious, precise, and gently skeptical"
+}
+```
 
 ## Process
 
@@ -22,10 +43,32 @@ Create a single MP3 audio file featuring a podcast-style interview with an agent
 4. Use OpenAI TTS to create the complete interview.
 5. Save as a single MP3 with speaker differentiation.
 
+## Usage
+
+```bash
+pip install -r requirements.txt
+export OPENAI_API_KEY="..."
+
+python agent_interview.py examples/research-agent.json
+```
+
+Optional CLI flags:
+
+```bash
+python agent_interview.py examples/research-agent.json \
+  --output-dir audio \
+  --interviewer-voice alloy \
+  --agent-voice nova \
+  --text-model gpt-4o-mini \
+  --tts-model tts-1
+```
+
 ## Voices
 
 - Host: alloy (warm, curious, energetic)
 - Agent: nova (passionate, expressive, confident)
+
+Other OpenAI TTS voices: `echo`, `fable`, `onyx`, `shimmer`.
 
 ## Conversation flow
 
