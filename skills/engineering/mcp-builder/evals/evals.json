@@ -1,0 +1,17 @@
+{
+  "skill_name": "mcp-builder",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build an MCP server for the GitHub API that exposes create_issue, list_repos, and get_issue.",
+      "expected_output": "A working MCP server with Zod or Pydantic schemas, pagination, readOnlyHint/destructiveHint annotations, and an evals/evals.json with 10 multi-tool questions.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Convert a curl-based weather API into a Python MCP server using FastMCP.",
+      "expected_output": "A FastMCP server with @mcp.tool() decorators, Pydantic input models, async I/O, and actionable error messages.",
+      "files": []
+    }
+  ]
+}

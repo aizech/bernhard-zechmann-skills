@@ -1,0 +1,17 @@
+{
+  "skill_name": "skill-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a skill for writing concise weekly status updates.",
+      "expected_output": "A new SKILL.md with clear trigger phrases, process steps, and output format under 250 lines.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Improve the description of the geo skill so it triggers when users mention AI search.",
+      "expected_output": "An updated description frontmatter and 2-3 test prompts showing should-trigger vs should-not-trigger cases.",
+      "files": []
+    }
+  ]
+}

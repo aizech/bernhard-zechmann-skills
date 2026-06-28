@@ -19,4 +19,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Misc: free-search-aggregator, openai-whisper.
   - Personal: kaleko-poet, agent-interview.
   - In-progress: minimal-design-system, hooked-framework, brainstorming, scratch-coder.
+- Bundled resources synced from source skills: references, scripts, agents, evals, assets, examples, and tools.
 - Validation script: `scripts/validate.py`.
