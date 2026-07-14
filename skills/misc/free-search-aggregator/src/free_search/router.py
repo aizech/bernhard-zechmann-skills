@@ -294,9 +294,9 @@ class SearchRouter:
                 name,
                 success=items is not None and len(items) > 0,
                 latency_ms=attempt.get("latency_ms", 0),
-                error_type=attempt.get("reason")
-                if attempt.get("status") == "failed"
-                else None,
+                error_type=(
+                    attempt.get("reason") if attempt.get("status") == "failed" else None
+                ),
             )
 
             attempted.append(attempt)
@@ -339,9 +339,9 @@ class SearchRouter:
             snapshot[name] = {
                 "used_today": used,
                 "daily_quota": int(daily_quota) if daily_quota is not None else None,
-                "remaining": None
-                if daily_quota is None
-                else max(int(daily_quota) - used, 0),
+                "remaining": (
+                    None if daily_quota is None else max(int(daily_quota) - used, 0)
+                ),
             }
         return snapshot
 

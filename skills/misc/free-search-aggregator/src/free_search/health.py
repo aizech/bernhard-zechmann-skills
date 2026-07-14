@@ -185,9 +185,9 @@ class HealthTracker:
                     "provider": name,
                     "health_score": scores.get(name, 0.0),
                     "total_requests": s["total"],
-                    "success_rate": round(s["successes"] / s["total"], 4)
-                    if s["total"] > 0
-                    else 0.0,
+                    "success_rate": (
+                        round(s["successes"] / s["total"], 4) if s["total"] > 0 else 0.0
+                    ),
                     "avg_latency_ms": round(sum(lats) / len(lats)) if lats else 0,
                     "min_latency_ms": min(lats) if lats else 0,
                     "max_latency_ms": max(lats) if lats else 0,

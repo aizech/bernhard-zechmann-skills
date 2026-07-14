@@ -53,7 +53,9 @@ class AgentInterview:
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
-            raise RuntimeError(f"Failed to load agent config from {agent_path}: {e}") from e
+            raise RuntimeError(
+                f"Failed to load agent config from {agent_path}: {e}"
+            ) from e
 
     def build_interview_prompt(self, agent_config: Dict[str, Any]) -> str:
         """Build a prompt that asks the LLM to generate a podcast interview.

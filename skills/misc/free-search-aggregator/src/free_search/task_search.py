@@ -10,7 +10,6 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 from .quality import optimize_results
 from .router import SearchRouter, SearchRouterError
 
-
 _SPLIT_PATTERN = re.compile(r"[，。；;、/|]+|\s+(?:and|or|vs|versus)\s+", re.IGNORECASE)
 _CONJUNCTION_PATTERN = re.compile(
     r"\s+(?:和|及|以及|并|对比|比较|vs|versus)\s+", re.IGNORECASE

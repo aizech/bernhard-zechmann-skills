@@ -19,7 +19,6 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).parent))
 from block_builder import BlockBuilder, generate_id, input_value, input_block
 
-
 DEFAULT_CAT_COSTUME = {
     "assetId": "bcf454acf82e4504149f7ffe07081dbc",
     "name": "costume1",

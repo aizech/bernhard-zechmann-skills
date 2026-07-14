@@ -265,9 +265,9 @@ def run_loop(
         "best_description": best["description"],
         "best_score": best_score,
         "best_train_score": f"{best['train_passed']}/{best['train_total']}",
-        "best_test_score": f"{best['test_passed']}/{best['test_total']}"
-        if test_set
-        else None,
+        "best_test_score": (
+            f"{best['test_passed']}/{best['test_total']}" if test_set else None
+        ),
         "final_description": current_description,
         "iterations_run": len(history),
         "holdout": holdout,

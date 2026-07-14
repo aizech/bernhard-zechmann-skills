@@ -310,9 +310,11 @@ class SourceDiscovery:
                 name,
                 success=p["status"] == "ok",
                 latency_ms=p.get("latency_ms", 0),
-                error_type=p.get("error", None)
-                if p["status"] not in ("ok", "disabled", "not_configured")
-                else None,
+                error_type=(
+                    p.get("error", None)
+                    if p["status"] not in ("ok", "disabled", "not_configured")
+                    else None
+                ),
             )
 
         # Phase 4: Generate recommendations

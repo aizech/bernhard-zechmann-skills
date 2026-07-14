@@ -166,9 +166,11 @@ def _get_tavily_quota(api_key: str) -> RealQuotaResult:
         limit=limit,
         used=used,
         unit="requests",
-        detail=None
-        if (remaining is not None or limit is not None or used is not None)
-        else "schema_unknown",
+        detail=(
+            None
+            if (remaining is not None or limit is not None or used is not None)
+            else "schema_unknown"
+        ),
         raw=payload if isinstance(payload, dict) else {"raw": payload},
     )
 

@@ -10,7 +10,11 @@ SKILLS_DIR = REPO_ROOT / "skills"
 WORKSPACE_ROOT = Path(r"C:\Users\bernh\OneDrive\dev_oc")
 
 EXCLUDED_DIRS = {".git", "__pycache__", ".venv", "node_modules"}
-EXCLUDED_FILES = {"SKILL.md", ".gitignore", "README.md"}  # Keep tightened SKILL.md; skip repo-level README
+EXCLUDED_FILES = {
+    "SKILL.md",
+    ".gitignore",
+    "README.md",
+}  # Keep tightened SKILL.md; skip repo-level README
 
 
 def find_source(skill_name: str) -> Path | None:
@@ -24,7 +28,11 @@ def find_source(skill_name: str) -> Path | None:
         WORKSPACE_ROOT / "agent-scratch-master" / "skills" / skill_name,
     ]
     for candidate in candidates:
-        if candidate.exists() and candidate.is_dir() and candidate != (SKILLS_DIR / skill_name):
+        if (
+            candidate.exists()
+            and candidate.is_dir()
+            and candidate != (SKILLS_DIR / skill_name)
+        ):
             return candidate
     return None
 

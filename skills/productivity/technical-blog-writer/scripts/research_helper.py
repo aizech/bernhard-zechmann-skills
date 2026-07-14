@@ -52,9 +52,7 @@ class ResearchHelper:
             relevance_indicator = (
                 "🔥"
                 if source["relevance"] == "high"
-                else "📚"
-                if source["relevance"] == "medium"
-                else "📄"
+                else "📚" if source["relevance"] == "medium" else "📄"
             )
             summary += f"{relevance_indicator} [{source['title']}]({source['url']}) - {source['relevance']} relevance\n"
 
